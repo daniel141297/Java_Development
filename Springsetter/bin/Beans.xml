@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!--  <bean id="student" class="com.java.fsd.settermethod.Student">
+  <property name="studentName" value="raju" />
+    <property name="id" value="6" />
+</bean>
+
+<bean id="alex" class="com.java.fsd.settermethod.Student">
+ <property name="studentName" value="kevin" />
+  <property name="id" value="7" />
+</bean>
+<bean id="j" class="com.java.fsd.settermethod.Student">
+ <property name="studentName" value="kevin" />
+  <property name="id" value="7" /></bean> --> 
+  
+ <!--  <bean id="student" class="com.java.fsd.settermethod.Student">
+     <constructor-arg name="studentName" value="daniel" />
+      <constructor-arg name="id" value="5" type="int"/>
+  </bean> -->
+  
+  <!-- <bean id="student" class="com.java.fsd.settermethod.Student">
+  <property name="subject">
+  <bean id="subject" class="com.java.fsd.settermethod.Subject"></bean>
+  </property>
+  
+  </bean> -->
+  <bean id="student" class="com.java.fsd.settermethod.Student">
+   <property name = "addressList">
+         <list>
+            <value>INDIA</value>
+            <value>Pakistan</value>
+            <value>USA</value>
+            <value>UK</value>
+         </list>
+      </property>
+</bean>
+</beans>
