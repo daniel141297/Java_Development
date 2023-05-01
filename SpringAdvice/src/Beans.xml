@@ -1,0 +1,28 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+   xmlns:aop = "http://www.springframework.org/schema/aop"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+   http://www.springframework.org/schema/aop 
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+<!-- <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+   
+   <bean id="triangle" class="com.spring.model.Triangle">
+    <property name="name" value="circle"></property>
+   </bean>
+   <bean id="circle" class="com.spring.model.Circle">
+   <property name="name" value="circle"></property>
+   </bean>
+   <bean id="shapeService" class="com.spring.service.ShapeService" autowire="byName"></bean>
+  
+   <bean name="loggingAspect" class="com.spring.aspect.LoggingAspect"></bean>
+   
+   <aop:config>
+   <aop:aspect id="loggingAspect" ref="LoggingAspect">
+  
+     <aop:before pointcut="execution(* get*())" method = "loogingadvice"/> 
+   </aop:aspect>
+   </aop:config> -->
+   </beans>
+   
+   
